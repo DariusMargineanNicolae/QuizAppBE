@@ -1,0 +1,12 @@
+[MESSAGES CONTROL]
+# Disable all convention, refactor, and informational messages.
+disable=
+    C,
+    R,
+    I,
+    fixme,
+    logging-fstring-interpolation,
+    broad-exception-caught,
+
+# Enable specific messages by their codes or names.
+# enable=

@@ -1,0 +1,18 @@
+{
+    "topic_name": "Limbajul C++",
+    "questions": [
+        {
+            "statement_of_the_problem": "",
+            "image_link": null,
+            "problem_number": 1,
+            "answer_options": [
+                {
+                    "answer_id": "a",
+                    "answer_statement": "",
+                    "correct": false,
+                    "answer_image": null
+                }
+            ]
+        }
+    ]
+}

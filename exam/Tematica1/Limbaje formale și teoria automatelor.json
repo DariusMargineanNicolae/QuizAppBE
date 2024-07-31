@@ -1,0 +1,67 @@
+{
+    "topic_name": "Limbaje formale și teoria automatelor",
+    "questions": [
+        {
+            "statement_of_the_problem": "Limbajul generat de gramatica G = (V_N , V_T , S, P), unde V_N = {S}; V_T = {a, b}; P = {S → aSb|aAb, A → aA|λ}, este:",
+            "image_link": null,
+            "problem_number": 1,
+            "answer_options": [
+                {
+                    "answer_id": "a",
+                    "answer_statement": "L = {a^m b^n|m ≥ n ≥ 1, };",
+                    "correct": false,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "b",
+                    "answer_statement": "L = {a^n a^m b^n|n ≥ 0, m ≥ 0};",
+                    "correct": false,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "c",
+                    "answer_statement": "L = {a^i+1 b^i|i ≥ 1};",
+                    "correct": true,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "d",
+                    "answer_statement": "L = {a^n+i b^n|n ≥ 1, i ≥ 0};",
+                    "correct": true,
+                    "answer_image": null
+                }
+            ]
+        },
+        {
+            "statement_of_the_problem": "Regulile gramaticii G = (VN , VT , S, P), unde VN = {S}, VT = {P CR, P DAR, UDMR}, P = {S → P CR|P DAR|UDMR}, respectă restricţiile impuse gramaticilor:",
+            "image_link": null,
+            "problem_number": 2,
+            "answer_options": [
+                {
+                    "answer_id": "a",
+                    "answer_statement": "regulate (tip 3);",
+                    "correct": true,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "b",
+                    "answer_statement": "independente de context (tip 2);",
+                    "correct": true,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "c",
+                    "answer_statement": "dependente de context (tip 1);",
+                    "correct": true,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "d",
+                    "answer_statement": "de tipul 0, 1, 2, 3;",
+                    "correct": true,
+                    "answer_image": null
+                }
+            ]
+        }
+    ]
+}

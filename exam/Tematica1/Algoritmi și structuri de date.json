@@ -1,0 +1,333 @@
+{
+    "topic_name": "Algoritmi și structuri de date",
+    "questions": [
+        {
+            "statement_of_the_problem": "Care dintre următoarele afirmaţii este/sunt adevărată/adevărate pentru algoritmul corespunzător funcţiei de mai jos (se consideră că x este un tablou unidimensional cu n elemente)",
+            "image_link": null,
+            "problem_number": 1,
+            "answer_options": [
+                {
+                    "answer_id": "a",
+                    "answer_statement": "Algoritmul returnează numărul de elemente pozitive din x",
+                    "correct": false,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "b",
+                    "answer_statement": "Algoritmul returnează numărul de elemente din cea mai lungă subsecvenţă cu elemente pozitive din x",
+                    "correct": true,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "c",
+                    "answer_statement": "Algoritmul are ordinul de complexitate O(n^2)",
+                    "correct": false,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "d",
+                    "answer_statement": "Algoritmul are ordinul de complexitate O(n)",
+                    "correct": true,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "e",
+                    "answer_statement": "Algoritmul are ordinul de complexitate O(n*k)",
+                    "correct": false,
+                    "answer_image": null
+                }
+            ]
+        },
+        {
+            "statement_of_the_problem": "Care dintre următoarele afirmaţii este/sunt adevărată/adevărate pentru algoritmul corespunzător funcţiei de mai jos (se consideră că a este un tablou unidimensional cu n elemente)",
+            "image_link": null,
+            "problem_number": 2,
+            "answer_options": [
+                {
+                    "answer_id": "a",
+                    "answer_statement": "Algoritmul sortează descrescător tabloul a",
+                    "correct": false,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "b",
+                    "answer_statement": "După aplicarea algoritmului, tabloul a satisface proprietatea a[i] ≥ a[n−1] pentru 0 ≤ i < n",
+                    "correct": true,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "c",
+                    "answer_statement": "Algoritmul sortează crescător tabloul a",
+                    "correct": false,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "d",
+                    "answer_statement": "După aplicarea algoritmului, tabloul a satisface proprietatea a[i] ≤ a[n−1] pentru 0 ≤ i < n",
+                    "correct": false,
+                    "answer_image": null
+                }
+            ]
+        },
+        {
+            "statement_of_the_problem": "Se consideră două valori naturale a şi b şi algoritmul descris prin (// specifică operat, ia de determinare a câtului împărțirii întregi): Care dintre următoarele afirmaţii este/sunt adevărată/adevărate?",
+            "image_link": null,
+            "problem_number": 3,
+            "answer_options": [
+                {
+                    "answer_id": "a",
+                    "answer_statement": "este posibil ca succesiunea de apeluri recursive să nu se termine",
+                    "correct": false,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "b",
+                    "answer_statement": "algoritmul returnează întotdeauna 0",
+                    "correct": false,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "c",
+                    "answer_statement": "algoritmul returnează produsul a*b dacă a este par şi a*b+b dacă a este impar",
+                    "correct": false,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "d",
+                    "answer_statement": "algoritmul returnează produsul a*b indiferent de paritatea lui a",
+                    "correct": true,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "e",
+                    "answer_statement": "dacă a > 2b atunci numărul de operaţii de înmulţire efectuate este mai mic în cazul apelului alg(b,a) decât în cazul apelului alg(a,b).",
+                    "correct": true,
+                    "answer_image": null
+                }
+            ]
+        },
+        {
+            "statement_of_the_problem": "Se consideră un tablou unidimensional, a[0..n−1], cu n = 10^10 valori numerice şi se pune problema determinării primelor 10 valori în ordine crescătoare. Care dintre următoarele abordări asigură faptul că a[0..9] conține cele mai mici 10 elemente în ordine crescătoare şi este mai eficientă?",
+            "image_link": null,
+            "problem_number": 4,
+            "answer_options": [
+                {
+                    "answer_id": "a",
+                    "answer_statement": "se sortează a[0..n − 1] crescător folosind algoritmul quicksort",
+                    "correct": false,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "b",
+                    "answer_statement": "se sortează parțial a aplicănd algoritmul de sortare prin inserție în care ciclul exterior for i in range(1,n) se înlocuieşte cu for i in range(1,11)",
+                    "correct": false,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "c",
+                    "answer_statement": "se sortează parțial a aplicând algoritmul de sortare prin selecție în care ciclul exterior for i in range(0,n-1) se înlocuieşte cu for i in range(0,10)",
+                    "correct": true,
+                    "answer_image": null
+                }
+            ]
+        },
+        {
+            "statement_of_the_problem": "Se consideră algoritmul alg apelat pentru un număr natural n şi se notează cu T(n) numărul de operaţii de adunare efectuate.",
+            "image_link": null,
+            "problem_number": 5,
+            "answer_options": [
+                {
+                    "answer_id": "a",
+                    "answer_statement": "Algoritmul returnează câte cifre impare are numărul n",
+                    "correct": false,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "b",
+                    "answer_statement": "Algoritmul returnează numărul de cifre egale cu 1 din reprezentarea binară a lui n",
+                    "correct": true,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "c",
+                    "answer_statement": "T(n) = 1 dacă n < 2 şi T(n) = T([n/2]) + n MOD 2 dacă n ≥ 2",
+                    "correct": false,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "d",
+                    "answer_statement": "T(n) = 0 dacă n < 2 şi T(n) = T([n/2]) + 1 dacă n ≥ 2",
+                    "correct": true,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "e",
+                    "answer_statement": "T(n) aparţine lui O(n)",
+                    "correct": false,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "f",
+                    "answer_statement": "T(n) aparţine lui O(log n)",
+                    "correct": true,
+                    "answer_image": null
+                }
+            ]
+        },
+        {
+            "statement_of_the_problem": "Algoritmul de sortare rapidă este cel mai potrivit pentru:",
+            "image_link": null,
+            "problem_number": 6,
+            "answer_options": [
+                {
+                    "answer_id": "a",
+                    "answer_statement": "sortarea unei liste mari cu elemente aleatoare",
+                    "correct": true,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "b",
+                    "answer_statement": "sortarea unei liste aproape ordonate",
+                    "correct": false,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "c",
+                    "answer_statement": "sortarea unei liste scurte",
+                    "correct": false,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "d",
+                    "answer_statement": "nu este potrivit pentru nici un fel de sortare",
+                    "correct": false,
+                    "answer_image": null
+                }
+            ]
+        },
+        {
+            "statement_of_the_problem": "Se consideră şirul lui Fibonacci dat de relaţia de recurenţă F0 = 0, F1 = 1 şi Fn+1 = Fn + Fn−1. De câte ori este evaluat F2 pentru a calcula F5 în cazul calculului termenului Fn în mod recursiv.",
+            "image_link": null,
+            "problem_number": 7,
+            "answer_options": [
+                {
+                    "answer_id": "a",
+                    "answer_statement": "de 3 ori",
+                    "correct": true,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "b",
+                    "answer_statement": "o dată",
+                    "correct": false,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "c",
+                    "answer_statement": "de 4 ori",
+                    "correct": false,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "d",
+                    "answer_statement": "de 5 ori",
+                    "correct": false,
+                    "answer_image": null
+                }
+            ]
+        },
+        {
+            "statement_of_the_problem": "Care din următoarele afirmaţii NU sunt adevărate în cazul algoritmului de căutare binară:",
+            "image_link": null,
+            "problem_number": 8,
+            "answer_options": [
+                {
+                    "answer_id": "a",
+                    "answer_statement": "Trebuie folosit un tablou sortat",
+                    "correct": false,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "b",
+                    "answer_statement": "Trebuie să avem acces direct la elementul din mijloc",
+                    "correct": false,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "c",
+                    "answer_statement": "Algoritmul nu este eficient atunci când avem mai mult de 1000 de elemente",
+                    "correct": true,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "d",
+                    "answer_statement": "Algoritmul realizează sortarea elementelor unui tablou",
+                    "correct": true,
+                    "answer_image": null
+                }
+            ]
+        },
+        {
+            "statement_of_the_problem": "Se consideră următorul algoritm aplicat unui număr n de forma n = ckck−1 . . . c1c0: Dacă p este o variabilă (implicită) care contorizează numărul de execuții ale ciclului (contorul ciclului), care este proprietatea invariantă?",
+            "image_link": null,
+            "problem_number": 9,
+            "answer_options": [
+                {
+                    "answer_id": "a",
+                    "answer_statement": "s = c0 + c1 + . . . + cp, n = ckck−1 . . . cp",
+                    "correct": false,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "b",
+                    "answer_statement": "s = c0 + c1 + . . . + cp−1, n = ckck−1 . . . cp",
+                    "correct": true,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "c",
+                    "answer_statement": "s = c0 + c1 + . . . + cp−1, n = ckck−1 . . . c1c0",
+                    "correct": false,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "d",
+                    "answer_statement": "n = ckck−1 . . . cp",
+                    "correct": false,
+                    "answer_image": null
+                }
+            ]
+        },
+        {
+            "statement_of_the_problem": "Fie A = (a1, ..., an) un multiset. Pentru a găsi S = (s1, ..., sk), un subset al lui A folosind tehnica căutarii local optimale (căutare lacomă – greedy):",
+            "image_link": null,
+            "problem_number": 10,
+            "answer_options": [
+                {
+                    "answer_id": "a",
+                    "answer_statement": "La fiecare pas elementul care pare a fi cel mai promițător la pasul respectiv este selectat din A și adăugat la S.",
+                    "correct": true,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "b",
+                    "answer_statement": "La fiecare pas elementul care pare a fi cel mai promițător la pasul respectiv este selectat din A și adăugat la S. Dacă ulterior nu este bun îl putem înlocui cu o altă componentă.",
+                    "correct": false,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "c",
+                    "answer_statement": "La fiecare pas elementul care pare a fi cel mai promițător pe ansamblul problemei este selectat din A și adăugat la S.",
+                    "correct": false,
+                    "answer_image": null
+                },
+                {
+                    "answer_id": "d",
+                    "answer_statement": "La fiecare pas un element oarecare este selectat din A și adăugat la S.",
+                    "correct": false,
+                    "answer_image": null
+                }
+            ]
+        }
+    ]
+}
